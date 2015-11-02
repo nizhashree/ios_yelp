@@ -25,6 +25,14 @@
 		42FD6C6E18DC286B000BF2B9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 42FD6C6C18DC286B000BF2B9 /* InfoPlist.strings */; };
 		42FD6C7018DC286B000BF2B9 /* YelpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FD6C6F18DC286B000BF2B9 /* YelpTests.m */; };
 		63E591F41F684901AF8C1C19 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DEC6D18C14F46F8AF2EA320 /* libPods.a */; };
+		FEF69DDD1BE1B21D00C8CC2B /* BusinessTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF69DDB1BE1B21D00C8CC2B /* BusinessTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		FEF69DDE1BE1B21D00C8CC2B /* BusinessTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEF69DDC1BE1B21D00C8CC2B /* BusinessTableViewCell.xib */; settings = {ASSET_TAGS = (); }; };
+		FEF69DE81BE33A4100C8CC2B /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF69DE61BE33A4100C8CC2B /* SettingsViewController.m */; settings = {ASSET_TAGS = (); }; };
+		FEF69DE91BE33A4100C8CC2B /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEF69DE71BE33A4100C8CC2B /* SettingsViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		FEF69DF01BE3C58F00C8CC2B /* CategoriesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF69DEE1BE3C58F00C8CC2B /* CategoriesTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		FEF69DF11BE3C58F00C8CC2B /* CategoriesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEF69DEF1BE3C58F00C8CC2B /* CategoriesTableViewCell.xib */; settings = {ASSET_TAGS = (); }; };
+		FEF69DF51BE3EC5800C8CC2B /* DropDownTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF69DF31BE3EC5800C8CC2B /* DropDownTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		FEF69DF61BE3EC5800C8CC2B /* DropDownTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEF69DF41BE3EC5800C8CC2B /* DropDownTableViewCell.xib */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +73,18 @@
 		9DEC6D18C14F46F8AF2EA320 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A28C751BD8043032F84076DB /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		FCA9D9EAA444BE83C105EDA0 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		FEF69DDA1BE1B21D00C8CC2B /* BusinessTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessTableViewCell.h; sourceTree = "<group>"; };
+		FEF69DDB1BE1B21D00C8CC2B /* BusinessTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessTableViewCell.m; sourceTree = "<group>"; };
+		FEF69DDC1BE1B21D00C8CC2B /* BusinessTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BusinessTableViewCell.xib; sourceTree = "<group>"; };
+		FEF69DE51BE33A4100C8CC2B /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		FEF69DE61BE33A4100C8CC2B /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		FEF69DE71BE33A4100C8CC2B /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		FEF69DED1BE3C58F00C8CC2B /* CategoriesTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoriesTableViewCell.h; sourceTree = "<group>"; };
+		FEF69DEE1BE3C58F00C8CC2B /* CategoriesTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoriesTableViewCell.m; sourceTree = "<group>"; };
+		FEF69DEF1BE3C58F00C8CC2B /* CategoriesTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategoriesTableViewCell.xib; sourceTree = "<group>"; };
+		FEF69DF21BE3EC5800C8CC2B /* DropDownTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropDownTableViewCell.h; sourceTree = "<group>"; };
+		FEF69DF31BE3EC5800C8CC2B /* DropDownTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropDownTableViewCell.m; sourceTree = "<group>"; };
+		FEF69DF41BE3EC5800C8CC2B /* DropDownTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DropDownTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +136,9 @@
 				420474F818DC2B2100E88E07 /* MainViewController.h */,
 				420474F918DC2B2100E88E07 /* MainViewController.m */,
 				420474FA18DC2B2100E88E07 /* MainViewController.xib */,
+				FEF69DE51BE33A4100C8CC2B /* SettingsViewController.h */,
+				FEF69DE61BE33A4100C8CC2B /* SettingsViewController.m */,
+				FEF69DE71BE33A4100C8CC2B /* SettingsViewController.xib */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -155,6 +178,7 @@
 		42FD6C5018DC286B000BF2B9 /* Yelp */ = {
 			isa = PBXGroup;
 			children = (
+				FEF69DD61BE1B1DE00C8CC2B /* views */,
 				11F304F91BDC20F3000ED8EF /* Models */,
 				420474F318DC297600E88E07 /* API */,
 				420474F718DC2A9200E88E07 /* View Controllers */,
@@ -203,6 +227,22 @@
 				A28C751BD8043032F84076DB /* Pods.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		FEF69DD61BE1B1DE00C8CC2B /* views */ = {
+			isa = PBXGroup;
+			children = (
+				FEF69DDA1BE1B21D00C8CC2B /* BusinessTableViewCell.h */,
+				FEF69DDB1BE1B21D00C8CC2B /* BusinessTableViewCell.m */,
+				FEF69DDC1BE1B21D00C8CC2B /* BusinessTableViewCell.xib */,
+				FEF69DED1BE3C58F00C8CC2B /* CategoriesTableViewCell.h */,
+				FEF69DEE1BE3C58F00C8CC2B /* CategoriesTableViewCell.m */,
+				FEF69DEF1BE3C58F00C8CC2B /* CategoriesTableViewCell.xib */,
+				FEF69DF21BE3EC5800C8CC2B /* DropDownTableViewCell.h */,
+				FEF69DF31BE3EC5800C8CC2B /* DropDownTableViewCell.m */,
+				FEF69DF41BE3EC5800C8CC2B /* DropDownTableViewCell.xib */,
+			);
+			name = views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,7 +324,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				42FD6C5518DC286B000BF2B9 /* InfoPlist.strings in Resources */,
+				FEF69DF11BE3C58F00C8CC2B /* CategoriesTableViewCell.xib in Resources */,
+				FEF69DF61BE3EC5800C8CC2B /* DropDownTableViewCell.xib in Resources */,
+				FEF69DE91BE33A4100C8CC2B /* SettingsViewController.xib in Resources */,
 				11F304F81BDC02C1000ED8EF /* LaunchScreen.storyboard in Resources */,
+				FEF69DDE1BE1B21D00C8CC2B /* BusinessTableViewCell.xib in Resources */,
 				420474FC18DC2B2100E88E07 /* MainViewController.xib in Resources */,
 				42FD6C5D18DC286B000BF2B9 /* Images.xcassets in Resources */,
 			);
@@ -354,10 +398,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				42FD6C5B18DC286B000BF2B9 /* AppDelegate.m in Sources */,
+				FEF69DDD1BE1B21D00C8CC2B /* BusinessTableViewCell.m in Sources */,
 				42FD6C5718DC286B000BF2B9 /* main.m in Sources */,
 				420474F618DC299500E88E07 /* YelpClient.m in Sources */,
 				420474FB18DC2B2100E88E07 /* MainViewController.m in Sources */,
+				FEF69DF01BE3C58F00C8CC2B /* CategoriesTableViewCell.m in Sources */,
 				11F304FF1BDC476D000ED8EF /* YelpBusiness.m in Sources */,
+				FEF69DE81BE33A4100C8CC2B /* SettingsViewController.m in Sources */,
+				FEF69DF51BE3EC5800C8CC2B /* DropDownTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -13,11 +13,16 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    
-    self.window.rootViewController = [[MainViewController alloc] init];
-    
+    MainViewController *tvc = [[MainViewController alloc] init];
+    tvc.edgesForExtendedLayout = UIRectEdgeNone;
+    UINavigationController *unc = [[UINavigationController alloc] initWithRootViewController:tvc];
+    [unc.navigationBar setBarTintColor:[UIColor colorWithRed:0.88 green:0.11 blue:0.11 alpha:1.0]];
+    unc.navigationBar.tintColor = [UIColor whiteColor];
+    unc.navigationBar.translucent = NO;
+    [unc.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor whiteColor]}];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    self.window.rootViewController = unc;
     return YES;
 }
 
